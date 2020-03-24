@@ -1,0 +1,21 @@
+[{
+        "_id": "crack",
+        "name": "Trincado",
+        "description": "Representa um dano do tipo trincado."
+    },
+    {
+        "_id": "scratch",
+        "name": "Arranhão",
+        "description": "Representa um dano do tipo arranhão."
+    },
+    {
+        "_id": "kneaded",
+        "name": "Amassado",
+        "description": "Representa um dano do tipo amassado."
+    },
+    {
+        "_id": "drilling",
+        "name": "Perfuração",
+        "description": "Representa um dano do tipo perfuração."
+    }
+]

@@ -1,0 +1,32 @@
+write-output "`nVARIAVEIS DO AMBIENTE DE PRODUCAO`n"
+
+# Configurações do MongoDB
+if (test-path env:MONGO_HOST_PRODUCTION) {
+    write-host "MONGO_HOST_PRODUCTION: $env:MONGO_HOST_PRODUCTION"
+}
+if (test-path env:MONGO_PORT_PRODUCTION) {
+    write-host "MONGO_PORT_PRODUCTION: $env:MONGO_PORT_PRODUCTION"
+}
+if (test-path env:MONGO_USER_PRODUCTION) {
+    write-host "MONGO_USER_PRODUCTION: $env:MONGO_USER_PRODUCTION"
+}
+if (test-path env:MONGO_PASSWORD_PRODUCTION) {
+    write-host "MONGO_PASSWORD_PRODUCTION: $env:MONGO_PASSWORD_PRODUCTION"
+}
+if (test-path env:MONGO_DATABASE_PRODUCTION) {
+    write-host "MONGO_DATABASE_PRODUCTION: $env:MONGO_DATABASE_PRODUCTION"
+}
+
+# Configurações do Storage
+if (test-path env:STORAGE_HOST_PRODUCTION) {
+    write-host "STORAGE_HOST_PRODUCTION: $env:STORAGE_HOST_PRODUCTION"
+}
+if (test-path env:STORAGE_PORT_PRODUCTION) {
+    write-host "STORAGE_PORT_PRODUCTION: $env:STORAGE_PORT_PRODUCTION"
+}
+if (test-path env:STORAGE_USER_PRODUCTION) {
+    write-host "STORAGE_USER_PRODUCTION: $env:STORAGE_USER_PRODUCTION"
+}
+if (test-path env:STORAGE_PASSWORD_PRODUCTION) {
+    write-host "STORAGE_PASSWORD_PRODUCTION: $env:STORAGE_PASSWORD_PRODUCTION"
+}
